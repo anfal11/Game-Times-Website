@@ -9,6 +9,12 @@
 	background-color: #ffffff;
 }
 
+body{
+	background-image: url(bg-gaming.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
 
 h1{
 	text-align: center;
