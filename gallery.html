@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Content Card view </title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <section>
-        <div class="container">
-            <div class="content">
-                <div class="card">
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
                             <img src="fifa22.jpg" alt="fifa22">
@@ -29,8 +31,163 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="Grand_Theft_Auto_V.png" alt="GTA_V">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="efootball22.jpg" alt="Pes22">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="CODMW3.jpg" alt="CODMW-3">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="GOW.jpg" alt="GOD of War">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="Red_Dead_Redemption_II.jpg" alt="RDR2">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="mafia3.jpg" alt="mafia 3">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="watch_dog_legions.jpg" alt="watch_dog_legions">
+                        </div>
+                        <div class="game1">
+                            <span class="name1">
+                                Fifa 22
+                            </span>
+                            <span class="detail1">
+                                Fifa 22 has released for all platforms like Pc, Console, Mobile.
+                            </span>
+                        </div>
+                        <div class="button">
+                            <button class="about_fifa_22"> About Fifa 22 </button>
+                        </div>
+                    </div>
+                </div>
+                            
+                
             </div>
         </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+      
+
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+
 </body>
 </html>

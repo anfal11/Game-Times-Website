@@ -15,6 +15,10 @@ body{
     background-color: #27282D;
 }
 
+.swiper{
+    width: 900px;
+}
+
 section .card .image{
     width: 140px;
     height: 140px;
@@ -97,3 +101,24 @@ section .card .image img{
     background-color: #333;
     cursor: pointer;
 }
+
+.swiper-pagination{
+    position:absolute;
+  }
+  
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: #7d2ae8;
+  }
+  
+.swiper-button-next, .swiper-button-prev{
+    opacity: 0.7;
+    color: #7d2ae8;
+    transition: all 0.3s;
+  }
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: #7d2ae8;
+  }
