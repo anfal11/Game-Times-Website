@@ -35,7 +35,7 @@ section .card .image img{
 .card{
     background-color: #f2f2f2;
     border-radius: 20px;
-    position: relative;
+    position:relative;
     margin: 20px 0;
 }
 
