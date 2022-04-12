@@ -73,4 +73,21 @@ html, body {
         color: #000;
         margin: 0;
         padding: 0;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		background-color: #0f0826;
       }
+
+	  img {
+		width: 225px;
+		object-fit: cover;
+		border: 10px solid #27282D;
+		border-radius: 20px;
+		
+	}
+
+	
+
+
+
