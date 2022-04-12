@@ -9,26 +9,26 @@
 	background-color: #ffffff;
 }
 
+
 h1{
 	text-align: center;
 	background: #99ccff;
 	font-family: 'Rubik Microbe', cursive;
-	font-size: 4vw;
-	
+	font-size: 4vw;	
 }
+
 
 #nav_link ul{
 	text-align: right;
 }
 
+
 #nav_link ul li{
 	list-style-type: none;
 	margin: 10px;
-	display: inline-block;
-	
-	
-	
+	display: inline-block;	
 }
+
 
 #nav_link ul li a{
 	text-decoration: none;
@@ -36,12 +36,8 @@ h1{
 	font-family: OpenSans,sans-serif,arial;
 	letter-spacing: -1px;
 	font-size: 20px;
-	font-weight: bold;
-	
-	                                               
-	
+	font-weight: bold;	                                            	
 }
-
 
   
 a::after{
@@ -52,6 +48,8 @@ a::after{
 	background-color: black;
 	transition: .5s ease-in-out;
 }
+
+
 a:hover::after{
 	content: '';
 	height: 2px;
@@ -61,33 +59,23 @@ a:hover::after{
 }
 
 
-html, body {
-        position: relative;
-        width: 100%;
-      }
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
 
-      body {
-        background-color: #27282D;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		background-color: #0f0826;
-      }
+img {
+	width: 225px;
+	object-fit: cover;
+	border: 3px solid #27282D;
+	border-radius: 5%;
+}
 
-	  img {
-		width: 225px;
-		object-fit: cover;
-		border: 10px solid #27282D;
-		border-radius: 20px;
-		
-	}
+.container{
+	display: flex;
+	justify-content: space-around;
+}
 
-	
 
 
 
