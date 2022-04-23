@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Wet+Paint&display=swap');
 
 
-
 *{
 	margin: 0;
 	padding: 0;
@@ -45,13 +44,10 @@ h1{
 	letter-spacing: -1px;
 	font-size: 20px;
 	font-weight: bold;
-	
-	                                               
-	
+
 }
 
 
-  
 a::after{
 	content: '';
 	height: 2px;
